@@ -1,0 +1,26 @@
+{
+  "name": "xxws_portal",
+  "version": "1.0.0",
+  "description": "巡线卫士门户",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "devintest": "lite-server 212",
+    "build": "gulp all"
+  },
+  "author": "xuanxianweishi",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "concurrently": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",    
+    "gulp-uglify": "^2.1.0",
+    "http-proxy-middleware": "^0.17.4",
+    "lite-server": "^2.2.2",
+    "run-sequence": "^2.2.0"    
+  }
+}

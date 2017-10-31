@@ -1,0 +1,89 @@
+
+	.content{
+		width:100%;
+	}
+	.poa{
+		position: absolute;
+	}
+	.por{
+		position: relative;
+	}
+	.about{
+		width:1200px;
+		height:550px;
+		margin: 0 auto;
+	}
+	.bgImg{
+		width: 100%;
+		height:550px;
+		background:url(../images/aboutImg/about_03.png) no-repeat;
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	.fontbox{
+		width: 600px;
+		height: 465px;
+/*		background:#71C2F1;*/
+		bottom:0;
+		left:0;
+	}
+	.text{
+		width: 520px;
+		margin:95px 40px;
+	}
+	.text p{
+		font-size:16px;
+		line-height:30px;
+		color:#fff;
+		text-indent:30px;
+	}
+	.touch{
+		width:1200px;
+		height:140px;
+		margin: 0 auto;
+		/*background:red;*/
+		margin-top: 50px;
+		margin-bottom: 50px;
+		background:url(../images/aboutImg/lianxi_03.png) no-repeat center;
+	}
+	.touch_text{
+		width:800px;
+		height: 140px;
+		padding-top:25px;
+		/*background:red;*/
+		margin-left:370px;
+	}
+	.touch_text .tel{
+		width:580px;
+		height:90px;
+		/*background:yellow;*/
+		margin-left: 130px;
+		margin-top: -49px;
+	}
+	.touch_text h1{
+		font-size:24px;
+		color:#444;
+		width:120px;
+		/*background:green;*/
+		padding-bottom:20px;
+		font-weight:normal;
+	}
+	.tel ul{
+		/*background:red;*/
+		width: 260px;
+		height:90px;
+		list-style:none;
+	}
+	.tel ul li{
+		height:30px;
+		display:inline-block;
+	}
+	.tel ul li a{
+		vertical-align: middle;
+	    margin-left: 8px;
+	    display: inline-block;
+	}
+	.tel ul li p{
+		font-size:16px;
+		color:#444;
+	}
