@@ -57,7 +57,7 @@ img {
 }
 
 .price_view>ul {
-  padding: 80px 60px 60px;
+  padding: 80px 105px 60px;
   border-bottom: 1px solid #ECECEC;
 }
 .price_view ul.flagship{
@@ -65,7 +65,7 @@ img {
 }
 .price_view>ul>li {
   position: relative;
-  padding: 50px 50px 0;
+  /* padding: 50px 50px 0; */
   margin-bottom: 70px;
 }
 
