@@ -31,7 +31,8 @@ img {
 .content .price_top img.word_banner{
   position: absolute;
   height: 95px;
-  top: 96px;
+  top: 50%;
+  margin-top: -47.5px;
   left: 50%;
   margin-left: -477px;
 }
@@ -44,7 +45,7 @@ img {
   position: absolute;
   bottom: 0;
   line-height: 110px;
-  font-size: 30px;
+  font-size: 22px;
   text-shadow: 0 5px 16px #000e4B;
 }
 
