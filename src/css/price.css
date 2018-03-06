@@ -241,3 +241,7 @@ img {
 .suspensionFrame .content p span {
   padding-left: 8px
 }
+.price_search .contactTelText{
+  color: red;
+  display: block;
+}
