@@ -11,9 +11,10 @@
   clear: both;
 }
 
-.font_bold{
+.font_bold {
   font-weight: 600;
 }
+
 img {
   vertical-align: middle;
 }
@@ -25,10 +26,11 @@ img {
 }
 
 .content .price_top .banner {
-  width: 100%;  
+  width: 100%;
   height: 100%;
 }
-.content .price_top img.word_banner{
+
+.content .price_top img.word_banner {
   position: absolute;
   height: 95px;
   top: 50%;
@@ -36,6 +38,7 @@ img {
   left: 50%;
   margin-left: -477px;
 }
+
 .content .price_top .top_content {
   color: #fff;
   width: 100%;
@@ -61,9 +64,11 @@ img {
   padding: 80px 105px 60px;
   border-bottom: 1px solid #ECECEC;
 }
-.price_view ul.flagship{
+
+.price_view ul.flagship {
   top: 32px;
 }
+
 .price_view>ul>li {
   position: relative;
   /* padding: 50px 50px 0; */
@@ -84,19 +89,20 @@ img {
   margin-left: 300px;
 }
 
- .version_title span {
+.version_title span {
   font-size: 24px;
   margin-right: 10px;
   line-height: 32px;
   font-weight: 500;
 }
 
- .version_title img {
+.version_title img {
   height: 32px;
   vertical-align: middle;
   position: relative;
   top: -5px;
 }
+
 
 /* .version_view .version_title {
   margin-bottom: 18px;
@@ -155,7 +161,7 @@ img {
   height: 50px;
   box-sizing: border-box;
   padding-left: 20px;
-  border:1px solid #ECECEC;
+  border: 1px solid #ECECEC;
 }
 
 .price_search input::-webkit-input-placeholder {
@@ -177,16 +183,18 @@ img {
 .price_search button {
   height: 50px;
   padding: 0 20px;
-  background-color: rgba(89,182,252,1);
+  background-color: rgba(89, 182, 252, 1);
   color: #fff;
-  border: 1px solid rgba(89,182,252,1);
+  border: 1px solid rgba(89, 182, 252, 1);
 }
-.price_search button:active{
+
+.price_search button:active {
   outline: none;
   color: #fff;
-  background-color: rgba(50,182,252,1);
+  background-color: rgba(50, 182, 252, 1);
 }
-.price_search button:focus{
+
+.price_search button:focus {
   outline: none;
 }
 
@@ -199,6 +207,7 @@ img {
   word-wrap: break-word;
   z-index: 98
 }
+
 .suspensionFrame .title {
   font-size: 20px;
   background: #59B6FC;
@@ -217,12 +226,14 @@ img {
   margin-top: -5px;
   cursor: pointer
 }
+
 .suspensionFrame .zixun {
   position: absolute;
   top: -15px;
   left: -30px;
   z-index: 99
 }
+
 .suspensionFrame .content {
   width: 100%;
   height: 180px;
@@ -231,6 +242,7 @@ img {
   border: 1px solid #ececec;
   box-shadow: 1px 2px 10px #ececec
 }
+
 .suspensionFrame .content p {
   margin: 0;
   padding-left: 20px;
@@ -239,10 +251,30 @@ img {
   height: 45px;
   line-height: 45px
 }
+
 .suspensionFrame .content p span {
   padding-left: 8px
 }
-.price_search .contactTelText{
+
+.price_search .contactTelText {
   color: red;
   display: block;
+}
+
+.price_search .trial_success {
+  display: none;
+}
+
+.success_img {
+  text-align: center;
+}
+
+.success_text {
+}
+
+.success_text p {
+  font-size: 20px;
+  color: #999;
+  line-height: 40px;
+  text-align: center;
 }
