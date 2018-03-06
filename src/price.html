@@ -317,10 +317,11 @@
       </ul>
     </div>
     <div class="price_search clearfix">
-      <div>
-        <input class="left" type="text" placeholder="请输入手机号码">
-        <button class="left">点击使用旗舰版</button>
+      <div class="clearfix">
+        <input class="left tel_Validate" type="text" placeholder="请输入手机号码">
+        <button class="left tel_btn">点击使用旗舰版</button>
       </div>
+      <div class="contactTelText"></div>
     </div>
     <div class="suspensionFrame">
       <div class="title">
@@ -465,9 +466,35 @@
 </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script>
+
   $("#close").click(function () {
     $('.suspensionFrame').css({ display: "none" })
   })
+  $(".tel_btn").click(function () {
+    if (!tel()) return;
+  });
+  function tel() {
+    contactTel = $('.tel_Validate').val().trim();
+    var returnVal;
+    var reg = /^(((17[0-9]{1})|(13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+    if (contactTel == "") {
+      $(".contactTelText").show().text('*请输入手机号码');
+      returnVal = false;
+    } else if (contactTel.length != 11) {
+      $(".contactTelText").show().text('*请输入有效的手机号码');
+      returnVal = false;
+    } else if (!reg.test(contactTel)) {
+      $(".contactTelText").show().text('*请输入有效的手机号码');
+      returnVa = false;
+    } else {
+      $(".contactTelText").hide();
+      returnVal=  true;
+    }
+    setTimeout(function(){
+      $(".contactTelText").hide();
+    },1000)
+    return returnVal;
+  }
 </script>
 
 </html>
